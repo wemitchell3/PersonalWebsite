@@ -77,9 +77,21 @@ p.lead {
 .dev-icons {
     font-size: 3rem
 }
+.dev-icons .list-inline-item i {
+    color: grey
+}
 
 .dev-icons .list-inline-item i:hover {
     color: #060080
+}
+
+.mb-0:hover {
+    color: #060080
+}
+
+.techs {
+    width: 70px;
+    margin: 20px 0px;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
