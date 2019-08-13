@@ -46,7 +46,25 @@ p.lead {
     font-weight: 400
 }
 
-.p-700{max-width:700px}
+.p-700{
+    max-width: 700px
+}
+.recommendations-div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
+
+.recommendation-card {
+    -webkit-box-shadow: 0px 0px 8px 5px rgba(235,235,235,1);
+    -moz-box-shadow: 0px 0px 8px 5px rgba(235,235,235,1);
+    box-shadow: 0px 0px 8px 5px rgba(235,235,235,1);
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
 
 .subheading {
     text-transform: uppercase;
